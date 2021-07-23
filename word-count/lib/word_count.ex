@@ -3,6 +3,11 @@ defmodule WordCount do
   Count the number of words in the sentence.
 
   Words are compared case-insensitively.
+
+  ## Examples
+
+    iex> WordCount.count("alex et Max sont frères et Alex est le plus vieux")
+    %{"alex" => 2, "et" => 2, "max" => 1, "sont" => 1, "frères" => 1, "est" => 1, "le" => 1, "plus" => 1, "vieux" => 1}
   """
   @spec count(String.t()) :: map
 

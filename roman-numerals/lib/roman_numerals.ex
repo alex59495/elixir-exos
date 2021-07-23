@@ -1,6 +1,17 @@
 defmodule RomanNumerals do
   @doc """
   Convert the number to a roman number.
+
+  ## Examples
+
+    iex> RomanNumerals.numeral(100)
+    "C"
+
+    iex> RomanNumerals.numeral(3)
+    "III"
+
+    iex> RomanNumerals.numeral(1993)
+    "MCMXCIII"
   """
   @spec numeral(pos_integer) :: String.t()
 

@@ -1,5 +1,6 @@
 defmodule WordCountTest do
   use ExUnit.Case
+  doctest WordCount
 
   test "count one word" do
     assert WordCount.count("word") == %{"word" => 1}

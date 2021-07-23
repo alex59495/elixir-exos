@@ -1,5 +1,6 @@
 defmodule RomanNumeralsTest do
   use ExUnit.Case
+  doctest RomanNumerals
 
   # @tag :pending
   test "1" do
